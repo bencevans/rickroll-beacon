@@ -4,5 +4,11 @@
 
 ## Setup
 
-    npm i eddystone-beacon
-    sudo node server.js
+    $ git clone https://github.com/bencevans/rickroll-beacon
+    $ cd rickroll-beacon
+
+    $ npm install
+
+    $ sudo setcap cap_net_raw+eip $(eval readlink -f `which node`)
+    $ npm start
+
