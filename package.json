@@ -1,0 +1,23 @@
+{
+  "name": "rickroll-beacon",
+  "version": "0.0.0",
+  "description": "Rick Rolling Bluetooth Physical Web Beacon",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencevans/rickroll-beacon.git"
+  },
+  "author": "Ben Evans <ben@bensbit.co.uk> (https://bencevans.io)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bencevans/rickroll-beacon/issues"
+  },
+  "homepage": "https://github.com/bencevans/rickroll-beacon#readme",
+  "dependencies": {
+    "eddystone-beacon": "^1.0.6"
+  }
+}
